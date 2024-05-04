@@ -19,7 +19,7 @@ function HomeComponents(props) {
 
     return (
         <div>
-            <h2>Product Cart</h2>
+            <h2>Product Cart Demo :</h2>
            
                 {data.map((item) =>
                    <>
