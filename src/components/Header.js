@@ -25,11 +25,11 @@ function Header(props) {
                         <th>Price</th>
                         <th>Sub Total</th>
                     </tr>
-                    {/* {props.data.obj1.map((items) => {
+                    {props.data.obj1.map((items) => {
                         return <tr> <td>{items.name}</td> <td>{items.qty}</td> <td>{items.price}</td> <td>{(items.qty * items.price).toFixed(2)}</td> </tr>
                     }
                     )
-                    } */}
+                    }
                 </table>
             </div>
         </div>
