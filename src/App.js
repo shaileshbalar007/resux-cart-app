@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import HomeContainer from './containers/HomeContainers';
 import Header from './containers/HeaderContainer';

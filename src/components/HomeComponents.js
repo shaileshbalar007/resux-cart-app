@@ -1,8 +1,7 @@
-import react, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import mobile from '../common/images/mobile2.avif'
 
 function HomeComponents(props) {
-    debugger
     console.log("Home", props.data)
 
     const [data, setData] = useState([
@@ -13,7 +12,6 @@ function HomeComponents(props) {
     ])
 
     useEffect(()=>{
-        debugger
         setData(props.data.obj2.length > 0 ? props.data.obj2[0] : data)
     },[props.data])
 

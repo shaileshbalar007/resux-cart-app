@@ -1,8 +1,5 @@
-import React, { useState } from 'react'
-import Header from './Header'
-import Footer from './Footer'
 import { connect } from 'react-redux';
-function Home(props) {
+function Home() {
 
    return (
       <>

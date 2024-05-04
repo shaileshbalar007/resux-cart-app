@@ -7,11 +7,11 @@ import reportWebVitals from './reportWebVitals';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import rootReducer from './services/Reducers/rootReducers';
-import { Route, Link, BrowserRouter as Router, Routes, NavLink, Switch } from 'react-router-dom';
-import Home from './Home';
-import About from './Header';
-import Contact from './Footer';
-import Notfound from './Notfound'
+// import { Route, Link, BrowserRouter as Router, Routes, NavLink, Switch } from 'react-router-dom';
+// import Home from './Home';
+// import About from './Header';
+// import Contact from './Footer';
+// import Notfound from './Notfound'
 const store = createStore(rootReducer);
 
 

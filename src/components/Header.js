@@ -1,9 +1,7 @@
-import react from 'react';
-import mobile from '../common/images/mobile2.avif'
+import React from 'react';
 import cart from '../common/images/cart1.jpg'
 
 function Header(props) {
-    debugger
     console.log(props.data.obj1)
     const uniqueProduct = [];
         props.data.obj1.map(res => {
@@ -11,7 +9,7 @@ function Header(props) {
                 uniqueProduct.push(res.id)
             }
         });
-    //const uniqueProduct = Array.from(new Set(props.data))
+   
     return (
         
         <div>
