@@ -15,7 +15,7 @@ function Header(props) {
         <div>
             <div className='add-to-cart'>
                 <span className='cart-count'>{uniqueProduct.length}</span>
-                <img src={cart}/>
+                <img src={cart} alt="Not found"/>
             </div>
             <div>
                 <table>

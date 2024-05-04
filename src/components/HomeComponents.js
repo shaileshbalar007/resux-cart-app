@@ -13,7 +13,7 @@ function HomeComponents(props) {
 
     useEffect(()=>{
         setData(props.data.obj2.length > 0 ? props.data.obj2[0] : data)
-    },[props.data])
+    },[props.data,data])
 
     return (
         <div>
@@ -23,7 +23,7 @@ function HomeComponents(props) {
                    <>
                     <div className='cart-wrapper'>
                     <div className='img-wrapper item'>
-                    <img src={mobile}/>
+                    <img src={mobile} alt="Not found"/>
                         </div>
                         <div className='text-wrapper item'>
                             <span>
