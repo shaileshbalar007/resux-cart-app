@@ -3,12 +3,13 @@ import cart from '../common/images/cart1.jpg'
 
 function Header(props) {
     console.log(props.data.obj1)
-    const uniqueProduct = [];
-    // props.data.obj1.map(res => {
-    //     if (uniqueProduct.indexOf(res.id) === -1) {
-    //         uniqueProduct.push(res.id)
-    //     }
-    // });
+    var uniqueProduct = [];
+    uniqueProduct = props.data.obj1.map((res) => {
+        if (uniqueProduct.indexOf(res.id) === -1) {
+            uniqueProduct.push(res.id)
+        }
+        return uniqueProduct;
+    });
 
     return (
 
